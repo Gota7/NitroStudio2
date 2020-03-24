@@ -23,6 +23,7 @@ Contains audio information and how to read it.
 |0x0C|AudioData|The rest of the block data is audio data for the channel. Its size is BlockSize - 0xC - 0x8|
 
 ### Converting Data Offset To Sample Position
+
 | **Encoding** | **Algorithm** |
 |--------------|---------------|
 |Signed PCM8|Offset|
