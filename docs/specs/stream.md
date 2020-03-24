@@ -31,4 +31,4 @@ Contains information on how to read the audio data.
 |0x28|u8[0x20]|Padding|
 
 ## Data Block (Magic: DATA)
-Contains the raw audio data. It is organized in a fashion such as this: { Block 0 Channel 0, Block 0 Channel 1, Block 1 Channel 0, Block 1 Channel 1, etc. }
+Contains the raw audio data. It is organized in a fashion such as this: { Block 0 Channel 0, Block 0 Channel 1, Block 1 Channel 0, Block 1 Channel 1, etc. } Each block is IMA-ADPCM encoded separately.
