@@ -1,5 +1,5 @@
 # Banks (.sbnk)
-SWARs or Sound Wave Archives are like folders for wave files.
+SBNKs or Sound Banks contain instrument information.
 
 ## The Main File
 The main file contains of a File Header and a Data Block.
