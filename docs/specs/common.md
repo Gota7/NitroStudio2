@@ -40,6 +40,7 @@ Version is in the format 0xAABB, where AA is the major version, and BB is the mi
 
 ### Block
 A block has a header and a size, and is always padded to 0x4 bytes. Any offset encountered in a block, unless otherwise specified, is relative to the start of that block.
+
 | **Offset** | **Type** | **Description** |
 |------------|----------|-----------------|
 |0x00|char[4]|Magic identifer for the block|
