@@ -23,9 +23,13 @@ A Sequence is like an MIDI file that tells the instruments what notes to play an
 ![alt text](img/sequenceInfo.png "Example sequence info.")
 
 Bank - What instrument Bank to use with the Sequence.
+
 Volume - A value from 0 to 127 representing the volume of the sequence. Divide this value by 127 and square it to get the actual volume percentage.
+
 Channel Priority - In the case that another sound is using the same channel, the one with the higher priority will play.
+
 Player Priority - In the case that the player is playing the max number of sequences, the one with the higher priority will play.
+
 Player - Which player to play the Sequence through.
 
 ### Sequence Archives
@@ -37,8 +41,11 @@ Banks contain instruments that tell Sequences how to play notes. They are linked
 ![alt text](img/bankInfo.png "Example bank info.")
 
 Wave Archive 0 - What Wave Archive to use for slot 0 for the Bank's instruments (instruments reference samples by slot and wave number).
+
 Wave Archive 1 - What Wave Archive to use for slot 1 for the Bank's instruments (instruments reference samples by slot and wave number).
+
 Wave Archive 2 - What Wave Archive to use for slot 2 for the Bank's instruments (instruments reference samples by slot and wave number).
+
 Wave Archive 3 - What Wave Archive to use for slot 3 for the Bank's instruments (instruments reference samples by slot and wave number).
 
 ### Wave Archives
@@ -54,7 +61,9 @@ Sequence Players play Sequences.
 ![alt text](img/sequencePlayerInfo.png "Example sequence player info.")
 
 Max Sequences - The maximum number of Sequences the player can play at a time.
+
 Heap Size - A value in hexadecimal of how much memory should be reserved for the player.
+
 Channel Flags - Which channels are allowed to be used by the Sequences (unchecked means Sequence won't use it).
 
 ### Groups
@@ -63,6 +72,7 @@ Groups are used for loading items. It is common to do something such as load a g
 ![alt text](img/groupInfo.png "Example group info.")
 
 Item - The item to have loaded.
+
 Load Flags - What dependencies of the item to have loaded. For example, it is possible to have a Sequence Entry and only load its Bank and Wave Archives, or just load the Sequence itself, or any combination of these.
 
 ### Stream Players
@@ -71,7 +81,9 @@ Stream Players play streams.
 ![alt text](img/streamPlayerInfo.png "Example stream player info.")
 
 Channel Type - If the player is to play stereo or mono Streams.
+
 Left Channel / Channel: If the stream is stereo, what channel to use for the left channel of the Stream. If mono, it is simply just the channel to use.
+
 Right Channel: What channel to use for the right channel of the Stream.
 
 ### Streams
@@ -80,8 +92,11 @@ Streams are like WAV files for the DS. Since they take a lot of memory, they are
 ![alt text](img/streamInfo.png "Example stream info.")
 
 Volume - A value from 0 to 127 representing the volume of the sequence. Divide this value by 127 and square it to get the actual volume percentage.
+
 Priority - In the case that the channels are busy, the higher priority item will play.
+
 Player - Which player to play the Stream through.
+
 Mono To Stereo - If the Stream is mono, convert it to stereo by playing it through both the channels of the Stream Player.
 
 ### Closing
