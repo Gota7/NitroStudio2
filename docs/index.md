@@ -1,7 +1,46 @@
-# OWO
-Wat's dis?
+# About Nitro Studio 2
+Nitro Studio 2 is an editor for Nintendo DS sound archives (SDAT) which contain music, sound effects, and anything audio related in general. Nitro Studio 2 is a sequel to my previous DS music editor, Nitro Studio. I felt that I could add a lot more features and make the program easier and intuitive to use by starting from scratch, and I'd say I succeeded. This editor has a lot more features than the old one.
+
+## New Features
+Some new features include:
+	
+	* Sequence editor.
+	* Sequence archive editor.
+	* Sequence archive sequence playback.
+	* Exporting sequences as WAV.
+	* Custom MIDI importer/exporter, with the option to use the old one, or even use Nintendo's SDK importer provided you have it.
+	* SF2/DLS exporting/importing.
+	* SF2 <-> DLS conversion.
+	* More accurate saving.
+	* More accurate SDK exporting.
+	* New and improved bank editor and bank generator.
+	* Ability to create SWAVs and STRMs from the tools menu and decide the target encoding.
+	* Batch exporting MIDI, SF2, and DLS.
+	* Importing and exporting instruments includes sample data.
+	* Ability to open any file standalone with Nitro Studio 2.
+	* Better group editing.
+	* Better usability and feel overall.
+	* Trackbar to change position.
+	* And more!
+
+## Downloads
+Coming soon! :}
+*Cough- Betas are on my discord. -Cough*
+
+## Guide
+Don't know where to start? Need help figuring out what something does or how to use a particular tool? Then please read the guides below to answer your own questions.
+
+[Sound Archive General Structure](guide/soundArchive.md) - Explains how the sound archive works as a whole, and the individual parameters for each item.
+
+(There will be more added later of course.)
+
+## Discord
+Need human support as the guides were not sufficient? Found a bug? Want a feature added? Want to get updates or early access to programs I'm working on?
+[Then join my discord!](https://discord.gg/6VDPGne)
 
 ## File Specifications
+In case you are a programmer and wish to develop your own tools related to the SDAT, wish to edit parts of files manually, or are just curious about the structure of the formats in general, you can look at the specifications of the different files used within the SDAT below.
+
 [Common Structures](specs/common.md) - Common structures found throughout the sound archive and its sub-files.
 
 [Sound Data (SDAT)](specs/soundData.md) - Sound data that contains everything.
@@ -17,3 +56,20 @@ Wat's dis?
 [Waves (SWAV)](specs/wave.md) - Waves that are used for instrument and SFX samples.
 
 [Streams (STRM)](specs/stream.md) - Streams to play music and SFX.
+
+## Credits
+I couldn't have done this alone of course!
+
+	* Nintendo, Images, SDAT Info.
+	* Kermalis, Sequence Player Base
+	* Eugene, Testing, Suggestions, Guide.
+	* Goji Goodra, Testing, Suggestions.
+	* Josh, SDAT Research.
+	* Crystal, SDAT Research.
+	* Nintendon, SDAT Research.
+	* DJ Bouche, SDAT Research.
+	* VGMTrans, SDAT Research.
+	* LoveEmu, SDAT Research, Tools.
+	* Gota7, Nitro Studio.
+
+©2020 Gota7
