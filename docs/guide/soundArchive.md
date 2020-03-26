@@ -99,7 +99,7 @@ Player - Which player to play the Stream through.
 
 Mono To Stereo - If the Stream is mono, convert it to stereo by playing it through both the channels of the Stream Player.
 
-### Closing
+## Next
 Now that you understand the basic layout of the sound archive, it's time to move on to:
 
-[General Editor Controls](404.md)
+[File Types](404.md)
