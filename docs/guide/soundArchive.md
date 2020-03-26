@@ -12,6 +12,17 @@ Streamed audio is the simplest and most straightforward, but it's costly in memo
 ### Sequenced Audio
 The easiest way to think of sequenced audio is to think of an MIDI file. An MIDI file just tells the device what notes to play, and Sequences do the same thing. Since Sequences play notes only, they must get the instrument data somewhere. This is where Banks come in, they tell the Sequence how to play notes. Sequences are thus hooked up to Banks. But Banks just tell the Sequence how to play a note, they don't actually contain any sound themselves. This is where Wave Archives come in. Wave Archives are like folders of WAV files, and Banks can use up to 4 of them to read sound data. The Sequence is then played through a Sequence Player.
 
+## Settings
+Nitro Studio 2 has some settings regarding the Sound Archive.
+
+![alt text](img/settings.png "Settings.")
+
+Write Names - If Nitro Studio 2 should write the symbol block for the Sound Archive, which contains item names. I highly recommend you keep this checked if you like knowing what items are.
+
+Sequence Import Mode - How Nitro Studio 2 should convert MIDI into SSEQ. Nitro Studio uses Nitro Studio 2's custom importer, Midi2Sseq uses the tool of the same name, and Nintendo Tools uses Nintendo's SDK tools given you smfconv and seqconv in the same location as Nitro Studio 2. You need to do this manually as these tools are not included.
+
+Sequence Export Mode - How Nitro Studio 2 should convert SSEQ into MIDI. Nitro Studio uses Nitro Studio 2's custom exporter, Sseq2Midi uses the tool of the same name.
+
 ## Individual Items
 This section lists all the individual items a Sound Archive has. Two things are common between an item of any type though, and that is it has a name and an index. While games ignore names, items referenced within the Sound Archive itself and games use the index/id to refer to it. For example, a Bank will reference Wave Archive 5 instead of what the true name is. Please note that no two items of the same type will ever share the same index, and indices do not have to be sequential. For example, it is possible to have a Wave Archive with index 3, and a Wave Archive with index 5, but not one with index 4. In Nitro Studio 2, you will see an item's index in brackets to the left of its name.
 

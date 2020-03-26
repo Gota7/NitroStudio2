@@ -12,7 +12,7 @@ When using Nitro Studio 2, you will encounter many different file types.
 |SMFT|SMF Text|No|This is the SDK's text format of a Sequence. It is described to be like an MIDI but in plain text|
 |MIDI|Musical Instrument Digital Interface|No|MIDI files don't contain sounds themselves, but rather tell instruments how to play sounds such as what notes to play|
 |SSAR|Sound Sequence ARchive|Yes|This is the binary form of a Sequence Archive. It is a long Sequence file that contains multiple entry points for each Sequence within the archive. It's kind of a collection of Sequences but in one file|
-|MUS|Music List|No|This is the SDK's text format of a Sequence Archive|
+|MUS|MUSic List|No|This is the SDK's text format of a Sequence Archive|
 |SBNK|Sound BaNK|Yes|This is the binary form of a Bank. It contains instruments that tell the Sequence Player how to play notes. However, this only references audio samples from Wave Archives for instruments and contains no audio samples in itself|
 |BNK|Bank|No|This is the SDK's text format of a Bank|
 |DLS|DownLoadable Sounds|No|This is used by PC MIDI editors as an instrument bank|
@@ -28,4 +28,4 @@ When using Nitro Studio 2, you will encounter many different file types.
 # Next
 Now that you understand all the different kinds of files used, it's time to move on to:
 
-[Sequence Editor](404.md)
+[Sequence Editor](sequenceEditor.md)

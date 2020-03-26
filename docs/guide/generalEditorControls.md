@@ -144,6 +144,13 @@ The item info varies for the type of item selected, and depends on the editor be
 
 ![alt text](img/itemInfo.png "Example item info for a sequence.")
 
+##### Data Grids
+Sometimes item info involves using a data grid to edit information, as with the case with Groups.
+
+![alt text](img/dataGrid.png "Data grid being used to edit group info.")
+
+A new item can be added to the grid by the insertion row which has an asterick (*). A row can be deleted by clicking its leftmost column and hitting the delete key on your keyboard.
+
 ### Item Tree
 The Item Tree contains a list of all the different items contained in the current file being edited.
 
