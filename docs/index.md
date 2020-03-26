@@ -38,6 +38,8 @@ Don't know where to start? Need help figuring out what something does or how to 
 
 [File Types](guide/fileTypes.md) - Goes over the different files that Nitro Studio 2 interacts with.
 
+[Sequence Commands](guide/sequenceCommands.md) - A list of Sequence commands and their MIDI controllers.
+
 [Sequence Editor](guide/sequenceEditor.md) - Describes how to use the Sequence Editor.
 
 [Sequence Archive Editor](guide/sequenceArchiveEditor.md) - Describes how to use the Sequence Archive Editor.
@@ -48,7 +50,11 @@ Don't know where to start? Need help figuring out what something does or how to 
 
 [Bank Generator](guide/bankGenerator.md) - Tells you how to create a new Bank from instruments in other Banks.
 
-(There will be more added later of course.)
+[Wave Creator](guide/waveCreator.md) - Shows how to create a Wave.
+
+[Stream Creator](guide/streamCreator.md) - Shows how to create a Stream.
+
+[Putting It All Together: Adding A Song From The Ground Up](guide/finalTest.md) - Goes through the process of adding a new song.
 
 ## Discord
 Need human support as the guides were not sufficient? Found a bug? Want a feature added? Want to get updates or early access to programs I'm working on?

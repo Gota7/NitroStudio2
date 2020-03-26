@@ -28,4 +28,4 @@ When using Nitro Studio 2, you will encounter many different file types.
 # Next
 Now that you understand all the different kinds of files used, it's time to move on to:
 
-[Sequence Editor](sequenceEditor.md)
+[Sequence Commands](sequenceCommands.md)
