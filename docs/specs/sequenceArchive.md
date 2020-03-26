@@ -1,3 +1,5 @@
+<link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
+
 # Sequence Archives (.ssar)
 An SSAR or sound sequence archive is like a giant sequence that contains multiple entry points. Each of those entry points contain sequence info similar to that found in the main sound data archive.
 

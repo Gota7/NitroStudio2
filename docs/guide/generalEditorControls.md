@@ -1,3 +1,5 @@
+<link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
+
 # General Editor Controls
 This section describes the general controls of Nitro Studio 2 that are fairly consistent throughout the editor.
 
@@ -191,4 +193,4 @@ Delete - Delete the entry. This option only appears for non-root nodes.
 ## Next
 Now that you know how the editor is laid out, it's time to move on to:
 
-[Sound Archive General Structure](guide/soundArchive.md)
+[Sound Archive General Structure](soundArchive.md)

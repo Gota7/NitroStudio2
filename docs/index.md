@@ -1,3 +1,5 @@
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
 # About Nitro Studio 2
 Nitro Studio 2 is an editor for Nintendo DS sound archives (SDAT) which contain music, sound effects, and anything audio related in general. Nitro Studio 2 is a sequel to my previous DS music editor, Nitro Studio. I felt that I could add a lot more features and make the program easier and intuitive to use by starting from scratch, and I'd say I succeeded. This editor has a lot more features than the old one.
 
@@ -30,7 +32,11 @@ Coming soon! :}
 ## Guide
 Don't know where to start? Need help figuring out what something does or how to use a particular tool? Then please read the guides below to answer your own questions.
 
+[General Editor Controls](guide/generalEditorControls.md) - Goes over the general layout and controls of Nitro Studio 2.
+
 [Sound Archive General Structure](guide/soundArchive.md) - Explains how the sound archive works as a whole, and the individual parameters for each item.
+
+[File Types](guide/fileTypes.md) - Goes over the different files that Nitro Studio 2 interacts with.
 
 (There will be more added later of course.)
 

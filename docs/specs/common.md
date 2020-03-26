@@ -1,3 +1,5 @@
+<link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
+
 # Common Structures
 In every type of sound file, you are bound to come across at least one of these structures. Rather than redefining them for each file, it would be better to define them all here for simplicity.
 

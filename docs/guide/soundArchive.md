@@ -1,3 +1,5 @@
+<link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
+
 # Sound Archive General Structure
 All music, sound effects, and anything audio related that use the Nitro SDK for audio store everything in what is called a Sound Archive. A Sound Archive can contain items such as Sequences, Banks, Players, Streams, and more.
 
@@ -102,4 +104,4 @@ Mono To Stereo - If the Stream is mono, convert it to stereo by playing it throu
 ## Next
 Now that you understand the basic layout of the sound archive, it's time to move on to:
 
-[File Types](404.md)
+[File Types](fileTypes.md)

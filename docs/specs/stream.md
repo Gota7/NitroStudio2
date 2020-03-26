@@ -1,3 +1,5 @@
+<link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
+
 # Streams (.strm)
 STRMs or Streams are like WAV files, except that audio data is chunked and can be IMA-ADPCM encoded.
 
