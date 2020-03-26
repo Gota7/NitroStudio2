@@ -3,8 +3,8 @@
 # File Types
 When using Nitro Studio 2, you will encounter many different file types.
 
-| ** Extension Name** | ** Extension Description** | **SDAT Or Inside** | **Description** |
-|---------------------|----------------------------|--------------------|-----------------|
+| **Extension Name** | **Extension Description** | **SDAT Or Inside** | **Description** |
+|--------------------|---------------------------|--------------------|-----------------|
 |SDAT|Sound DATa|Yes|This is the binary format of the Sound Archive|
 |SARC|Sound ARChive|No|This is the SDK's text format of a Sound Archive|
 |SPRJ|Sound PRoJect|No|This is a Sound Project file that is used by NITRO-SoundMaker to compile Sound Archives|
