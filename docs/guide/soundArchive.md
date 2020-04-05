@@ -1,5 +1,3 @@
-<link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
-
 # Sound Archive General Structure
 All music, sound effects, and anything audio related that use the Nitro SDK for audio store everything in what is called a Sound Archive. A Sound Archive can contain items such as Sequences, Banks, Players, Streams, and more.
 

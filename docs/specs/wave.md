@@ -1,5 +1,3 @@
-<link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
-
 # Waves (.swav)
 SWAVs or Sound Waves are like WAV files, except are always only one channel and can be IMA-ADPCM encoded.
 

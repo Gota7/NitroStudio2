@@ -1,5 +1,3 @@
-<link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
-
 # Wave Archives (.swar)
 SWARs or Sound Wave Archives are like folders for wave files.
 

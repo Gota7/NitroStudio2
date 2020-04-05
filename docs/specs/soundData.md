@@ -1,5 +1,3 @@
-<link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
-
 # Sound Data (.sdat)
 SDAT or Sound Data contains sound data for the game.
 

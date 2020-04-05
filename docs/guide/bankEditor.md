@@ -1,7 +1,5 @@
-<link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
-
 # Bank Editor
-The Bank Editor is used to edit Banks. The Bank Editor adds a few new parts to the window.
+The Bank Editor is used to edit Banks. The Bank Editor adds a few new parts to the window. Each instrument index plus one corresponds to its MIDI program number
 
 ## New Window Additions
 This section covers the new items added to the window. However, these rely on the parent Sound Archive. These items will only appear if a Sound Archive is opened in the Main Window.

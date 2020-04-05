@@ -1,5 +1,3 @@
-<link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
-
 # Common Structures
 In every type of sound file, you are bound to come across at least one of these structures. Rather than redefining them for each file, it would be better to define them all here for simplicity.
 
@@ -25,7 +23,7 @@ Every structure is made of the following primitive types. You will come across t
 
 A relative offset is relative to the start of a block. An absolute offset is relative to the start of a file. An offset of 0 means it is a null pointer, and so contains null or no data.
 
-### Sound File Header
+## Sound File Header
 This is essential for the game to know how to read the data in the file. It is always 0x10 bytes.
 
 | **Offset** | **Type** | **Description** |
@@ -37,10 +35,10 @@ This is essential for the game to know how to read the data in the file. It is a
 |0x0C|u16|Size of this header|
 |0x0E|u16|Number of blocks in the file|
 
-#### File Version
+### File Version
 Version is in the format 0xAABB, where AA is the major version, and BB is the minor version. For example, 0x0100 is 1.0.
 
-### Block
+## Block
 A block has a header and a size, and is always padded to 0x4 bytes. Any offset encountered in a block, unless otherwise specified, is relative to the start of that block.
 
 | **Offset** | **Type** | **Description** |
@@ -50,7 +48,7 @@ A block has a header and a size, and is always padded to 0x4 bytes. Any offset e
 |0x0C|u8[BlockSize - 8]|Block body. This is interpreted differently for every file|
 |----|---|Padding for 0x4 alignment|
 
-### Sound Encoding
+## Sound Encoding
 Sound encoding is one byte, and has the following enumeration:
 
 | **Identifier** | **Description** |
@@ -59,7 +57,7 @@ Sound encoding is one byte, and has the following enumeration:
 |1|Signed PCM16|
 |2|4-bit IMA-ADPCM|
 
-### Table<`Type T`>
+## Table<`Type T`>
 This contains a collection of whatever the Type T is. For example, a table could contain u8s, u32s, or anything else. Tables are always padded to 0x4 bytes.
 
 | **Offset** | **Type** | **Description** |

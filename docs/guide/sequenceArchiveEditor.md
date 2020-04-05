@@ -1,5 +1,3 @@
-<link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
-
 # Sequence Archive Editor
 The Sequence Archive Editor is used to edit Sequence Archives. Unfortunately, there's a lot to it and I'm just too tired at the moment so please just move on to the next section.
 

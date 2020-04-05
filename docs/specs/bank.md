@@ -1,5 +1,3 @@
-<link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
-
 # Banks (.sbnk)
 SBNKs or Sound Banks contain instrument information.
 

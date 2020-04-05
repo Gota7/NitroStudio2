@@ -1,5 +1,3 @@
-<link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
-
 # General Editor Controls
 This section describes the general controls of Nitro Studio 2 that are fairly consistent throughout the editor.
 

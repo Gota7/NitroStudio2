@@ -1,5 +1,3 @@
-<link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
-
 # File Types
 When using Nitro Studio 2, you will encounter many different file types.
 

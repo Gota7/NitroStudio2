@@ -1,5 +1,3 @@
-<link rel="shortcut icon" type="image/x-icon" href="../favicon.ico">
-
 # Sequences (.sseq)
 SSEQs or Sound Sequences are like MIDI files, except for the NDS. They execute instructions for instruments to play.
 
