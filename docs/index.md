@@ -27,6 +27,13 @@ Some new features include:
 Coming soon! :}
 *Cough- Betas are on my discord. -Cough*
 
+Beta: https://cdn.discordapp.com/attachments/440493269110095876/746771176701034506/Nitro_Studio_2.rar
+
+Known Bugs:
+   * Not all buttons work.
+   * Audio conversion of any kind is faulty.
+   * Nitro Studio 2 sequence converters are incomplete.
+
 ## Guide
 Don't know where to start? Need help figuring out what something does or how to use a particular tool? Then please read the guides below to answer your own questions.
 
