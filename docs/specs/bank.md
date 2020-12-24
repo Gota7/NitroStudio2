@@ -10,7 +10,7 @@ The main file contains of a File Header and a Data Block.
 |Block|Data Block|
 
 ## Data Block Body (Magic: DATA)
-Contains a series of headerless wave files. Note that the data for the waves is only the content in Data Block Body.
+Contains all the instruments used in the bank.
 
 | **Offset** | **Type** | **Description** |
 |------------|----------|-----------------|
