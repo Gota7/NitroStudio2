@@ -71,15 +71,15 @@
     <Compile Include="WaveArchive.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\GotaSequenceLib\GotaSequenceLib.csproj">
+    <ProjectReference Include="..\GotaSequenceLib\GotaSequenceLib.csproj">
       <Project>{D06E248A-EF7A-4F1E-9A71-76204D61FF80}</Project>
       <Name>GotaSequenceLib</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\GotaSoundBank\GotaSoundBank.csproj">
+    <ProjectReference Include="..\GotaSoundBank\GotaSoundBank.csproj">
       <Project>{2642E217-5595-4E4B-9B6D-F5CFD937EB25}</Project>
       <Name>GotaSoundBank</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\GotaSoundIO\GotaSoundIO.csproj">
+    <ProjectReference Include="..\GotaSoundIO\GotaSoundIO.csproj">
       <Project>{f0bcd085-9dc4-4b22-b791-c725ca8e46f6}</Project>
       <Name>GotaSoundIO</Name>
     </ProjectReference>

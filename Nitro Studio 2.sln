@@ -7,11 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nitro Studio 2", "Nitro Stu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NitroFileLoader", "NitroFileLoader\NitroFileLoader.csproj", "{132D5DA0-BD98-4FCB-9A9C-73556C16B2C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GotaSoundIO", "..\GotaSoundIO\GotaSoundIO.csproj", "{F0BCD085-9DC4-4B22-B791-C725CA8E46F6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GotaSoundIO", "GotaSoundIO\GotaSoundIO.csproj", "{F0BCD085-9DC4-4B22-B791-C725CA8E46F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GotaSequenceLib", "..\GotaSequenceLib\GotaSequenceLib.csproj", "{D06E248A-EF7A-4F1E-9A71-76204D61FF80}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GotaSequenceLib", "GotaSequenceLib\GotaSequenceLib.csproj", "{D06E248A-EF7A-4F1E-9A71-76204D61FF80}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GotaSoundBank", "..\GotaSoundBank\GotaSoundBank.csproj", "{2642E217-5595-4E4B-9B6D-F5CFD937EB25}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GotaSoundBank", "GotaSoundBank\GotaSoundBank.csproj", "{2642E217-5595-4E4B-9B6D-F5CFD937EB25}"
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "NitroStudio2Installer", "NitroStudio2Installer\NitroStudio2Installer.vdproj", "{BD16D3DB-EEE2-40D1-B1D9-B28F60BDBF62}"
 EndProject
